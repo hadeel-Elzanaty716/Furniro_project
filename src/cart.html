@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+
+    <title></title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <div class=" cart_container">
+
+        <div class="header ">
+            <div class="navbar flex m-auto p-2 w-11/12 justify-around  ">
+                <div class="logo flex gap-3 items-center">
+                    <img height="32" width="50" src="../images/Meubel House_Logos-05.png" alt="">
+                    <h1 class="font-bold text-4xl">
+                        Funiro
+                    </h1>
+                </div>
+                <ul class="nav_list flex justify-around list-none">
+                    <li class=" list-none text-xl font-medium mr-14 text-black p-2.5">
+                        <a class="decoration-0" href="index.html">Home</a>
+                    </li>
+                    <li class=" list-none text-xl font-medium mr-14  p-2">
+                        <a class="decoration-0" href="shop.html">Shop</a>
+                    </li>
+                    <li class=" text-xl font-medium mr-14 text-black p-2.5">
+                        <a class="decoration-0" href="about.html">About</a>
+
+                    </li>
+                    <li class="text-xl font-medium mr-14 text-black p-2.5">
+                        <a class="decoration-0 " href="contact.html">Contact</a>
+
+
+                    </li>
+                </ul>
+                <ul class="nav_icons flex justify-center gap-4">
+                    <li class="pt-4">
+                        <a class="icons cursor-pointer">
+                            <img class="w-7" src="../images/mdi_account-alert-outline.png" alt="">
+
+                        </a>
+                    </li>
+                    <li class="pt-5">
+                        <a class="icons cursor-pointer">
+                            <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+
+                        </a>
+                    </li>
+                    <li class="pt-5">
+                        <a class="icons cursor-pointer">
+                            <i class="fa-regular fa-heart text-2xl"></i>
+
+                        </a>
+                    </li>
+
+                    <li class="pt-5">
+                        <a class="icons cursor-pointer">
+                            <img src="../images/Vector.png" alt="">
+
+
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div
+                class="heading_shop text-center bg-[url(../images/header_shop.png)] bg-center bg-size[100%_300px] h-75 mb-25 flex items-center justify-center  m-auto w-full">
+                <div class="heading_shop_info m-auto w-full">
+                    <img class="m-auto mb-2" height="32" width="50" src="../images/Meubel House_Logos-05.png" alt="">
+                    <h2 class="font-medium text-5xl mb-3 ">
+                        Cart</h2>
+                    <p class="font-medium">
+                        Home > <span class="font-light">Cart</span></p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="cart_div flex w-8/10 mx-auto my-15 gap-7.5 justify-between">
+            <div class="cart_div_left w-full">
+                <div class="first_left_div flex bg-amber-50 px-5 py-2.5 justify-center gap-12.5 mb-7.5 ">
+                    <h6 class="w-2/10"></h6>
+                    <h6 class="w-2/10 font-medium ">
+                        Product
+                    </h6>
+                    <h6 class="w-2/10 font-medium ">
+                    Price
+                    </h6>
+                    <h6 class="w-2/10 font-medium ">
+                    Quantity
+                    </h6>
+                    <h6 class="w-2/10 font-medium ">
+                    Subtotal
+                    </h6>
+
+                    <h6 class="w-2/10 font-medium ">
+
+                    </h6>
+
+                </div>
+                <div class="second_left_div flex w-full gap-16 items-center">
+                    <img width="105" height="105" src="../images/Group 156.png" alt="">
+                    <p class="gray_parag text-gray-500">
+                        Asgaard sofa
+                    </p>
+                    <p class="gray_parag text-gray-500 ">
+                        Rs. 250,000.00
+                    </p>
+                    <button
+                        class="w-10 h-10 text-center p-2 bg-transparent rounded-md outline-0 border border-gray-500">1</button>
+                    <p>
+                        Rs. 250,000.00
+                    </p>
+                    <button class="delete_btn border-0 outline-0 cursor-pointer">
+                        <i class="fa-solid fa-trash text-yellow-700"></i>
+                    </button>
+
+
+
+                </div>
+
+            </div>
+
+
+            <div class="cart_div_right w-[35%] bg-amber-50 px-10 py-5 text-center">
+                <h3 class="font-semibold text-3xl mb-10">
+                    Cart Totals
+                </h3>
+                <div class="subtotal_div flex mb-7.5 justify-around">
+                    <h5 class="font-medium">
+                        Subtotal
+                    </h5>
+                    <p class="text-gray-500">Rs. 250,000.00</p>
+                </div>
+                <div class="total_div flex mb-10 justify-around " >
+                    <h5 class="font-medium">
+                        Total
+                    </h5>
+                    <p class="font-medium text-5 text-yellow-700">Rs. 250,000.00</p>
+                </div>
+                <button class="text-xl px-11.25 py-3.25 bg-transparent border border-black rounded-xl outline-0 cursor-pointer mb-10">
+                    Check Out
+                </button>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="details_shop_container flex px-25 py-17.5 justify-around bg-amber-50 mb-15">
+            <div class="details_shop_div flex flex-wrap gap-3.75">
+
+                <img src="../images/vector-1.png" alt="">
+
+                <div>
+                    <h5 class="font-semibold text-2xl leading-[150%] ">
+                        High Quality
+                    </h5>
+                    <p class="font-medium text-xl leading-[150%] text-gray-500">
+                        crafted from top materials
+                    </p>
+                </div>
+            </div>
+            <div class="details_shop_div flex flex-wrap gap-3.75">
+                <img src="../images/Vector (2).png" alt="">
+                <div>
+                    <h5 class="font-semibold text-2xl leading-[150%] ">
+                        Warranty Protection
+                    </h5>
+                    <p class="font-medium text-xl leading-[150%] text-gray-500">
+                        Over 2 years
+                    </p>
+                </div>
+            </div>
+            <div class="details_shop_div flex flex-wrap gap-3.75">
+                <img src="../images/Vector (3).png" alt="">
+                <div>
+                    <h5 class="font-semibold text-2xl leading-[150%] ">
+                        Free Shipping
+                    </h5>
+                    <p class="font-medium text-xl leading-[150%] text-gray-500">
+                        Order over 150 $
+                    </p>
+                </div>
+            </div>
+            <div class="details_shop_div flex flex-wrap gap-3.75">
+                <img src="../images/Vector -4.png" alt="">
+                <div>
+                    <h5 class="font-semibold text-2xl leading-[150%] ">
+                        24 / 7 Support
+                    </h5>
+                    <p class="font-medium text-xl leading-[150%] text-gray-500">
+                        Dedicated support
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr class=" border border-gray-200">
+        <div class="footer w-full m-auto my-12.5 px-25">
+            <div class="footer_lists flex justify-between mb-12.5">
+                <div class="footer_info">
+                    <h3 class="font-bold mb-10 text-2xl ">Funiro.</h3>
+                    <p class="p1 font-normal text-gray-500">400 University Drive Suite 200 Coral <br>
+                        Gables,<br>
+                        FL 33134 USA</p>
+                </div>
+                <div class="footer_links">
+
+                    <p class="p2 text-gray-500 mb-10 font-medium">Links</p>
+                    <ul>
+                        <li class="list-none mb-10">
+                            <a href="#" class="text-black font-medium decoration-0 ">Home</a>
+                        </li>
+                        <li class="list-none mb-10">
+                            <a href="#shop" class="text-black font-medium decoration-0 ">Shop</a>
+                        </li>
+                        <li class="list-none mb-10">
+                            <a href="#about" class="text-black font-medium decoration-0 ">About</a>
+                        </li>
+                        <li class="list-none mb-10">
+                            <a href="#contact" class="text-black font-medium decoration-0 ">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer_help">
+
+                    <p class="p2 text-gray-500 mb-10 font-medium">Help</p>
+                    <ul>
+                        <li class="list-none mb-10">
+                            <a href="#" class="text-black font-medium decoration-0 ">Payment Options</a>
+                        </li>
+                        <li class="list-none mb-10">
+                            <a href="#" class="text-black font-medium decoration-0 ">Returns</a>
+                        </li>
+                        <li class="list-none mb-10">
+                            <a href="#" class="text-black font-medium decoration-0 ">Privacy Polices</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="footer_form">
+
+                    <p class="p2  text-gray-500 mb-10 font-medium">Newsletter</p>
+                    <form action="">
+                        <input class="outline-0 border-0 border-b-2 border-black pb-1.25 ml-2.5 bg-transparent pr-6 "
+                            type="email" placeholder="Enter Your Email Address">
+                        <input
+                            class="outline-0 border-0 border-b-2 border-black pb-1.25 ml-2.5 bg-transparent font-medium "
+                            type="submit" value="SUBSCRIBE">
+                    </form>
+                </div>
+            </div>
+            <hr class="line_footer">
+            <div class="footer_rights">
+                <h6 class="mt-12.5 ">
+                    2023 furino. All rights reverved
+                </h6>
+            </div>
+        </div>
+
+    </div>
+</body>
